@@ -241,3 +241,12 @@ sheaf-cohomology = "0.1"
 ## License
 
 MIT
+
+## Ecosystem Integration
+
+- Extends `spectral-graph-core` with sheaf-theoretic cohomology computations on graphs
+- Feeds into `sheaf-dynamics` for time-evolving sheaf models
+- Used by `plato-room` for topological analysis of structured environments
+- Connects to `plato-observation` for observational sheaf constraints
+- Part of the algebraic topology stack alongside `topological-flow`
+
