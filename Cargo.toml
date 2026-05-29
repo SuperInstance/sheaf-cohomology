@@ -1,0 +1,9 @@
+[package]
+name = "sheaf-cohomology"
+version = "0.1.0"
+edition = "2021"
+description = "Cellular sheaves and cohomology on graphs — pure Rust, zero dependencies"
+license = "MIT"
+
+[lib]
+path = "src/lib.rs"
