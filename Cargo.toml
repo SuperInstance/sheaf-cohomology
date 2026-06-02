@@ -1,6 +1,6 @@
 [package]
 name = "sheaf-cohomology"
-version = "0.1.0"
+version = "0.3.0"
 edition = "2021"
 description = "Sheaf cohomology in Rust — sheaves on topological spaces, Čech cohomology, sheaf sequences, cohomology groups"
 license = "MIT OR Apache-2.0"
