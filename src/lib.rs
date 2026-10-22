@@ -438,6 +438,17 @@ pub fn euler_characteristic(sheaf: &Sheaf) -> i32 {
 }
 
 // ---------------------------------------------------------------------------
+// Hodge decomposition
+// ---------------------------------------------------------------------------
+
+pub mod hodge;
+
+pub use hodge::{
+    cochain_layout, hodge_basis, hodge_decompose_c0, hodge_decompose_c1, CochainDegree,
+    CochainLayout, HodgeBasis, HodgeDecomposition,
+};
+
+// ---------------------------------------------------------------------------
 // Consistency measures
 // ---------------------------------------------------------------------------
 
